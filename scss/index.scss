@@ -1,0 +1,20 @@
+body {
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #ffefba); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ffefba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  & .btn {
+    text-decoration: none;
+    padding: 1rem;
+    a {
+      box-shadow: 0px 0px 25px 10px salmon;
+    }
+  }
+}
